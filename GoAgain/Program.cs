@@ -2,8 +2,6 @@
 
 
 bool keepGoing = true;
-
-
 do
 {
     Console.Write("Please enter a number:  ");

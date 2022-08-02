@@ -13,16 +13,22 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VariablesSummary", "Variabl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditionals", "Conditionals\Conditionals.csproj", "{4ED1FBFE-28BD-4B31-A15F-8E17230AE0B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab 1.2 Number Analyzer", "Lab 1.2 Number Analyzer\Lab 1.2 Number Analyzer.csproj", "{C0878678-810F-4FA8-B3DD-64EB9F628CA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab 1.2 Number Analyzer", "Lab 1.2 Number Analyzer\Lab 1.2 Number Analyzer.csproj", "{C0878678-810F-4FA8-B3DD-64EB9F628CA4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4B73DC5C-38D6-4F5A-9918-0AE048E23841}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopDemo1", "LoopDemo1\LoopDemo1.csproj", "{68D6CB5E-92D9-4256-AB66-A4A3FAFFBF65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoopDemo1", "LoopDemo1\LoopDemo1.csproj", "{68D6CB5E-92D9-4256-AB66-A4A3FAFFBF65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoAgain", "GoAgain\GoAgain.csproj", "{070CF4CE-97C7-4DB2-9CF9-9A1975A2A66B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoAgain", "GoAgain\GoAgain.csproj", "{070CF4CE-97C7-4DB2-9CF9-9A1975A2A66B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchDemo", "SwitchDemo\SwitchDemo.csproj", "{86F8DABA-319D-465C-86F2-03D10B67024A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shapes", "Shapes\Shapes.csproj", "{B9387CAF-C1D1-4F40-B498-3F4453753556}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab 1.3 Powers Table", "Lab 1.3 Powers Table\Lab 1.3 Powers Table.csproj", "{E234A336-B2E1-4FF6-A41F-B2C1F06FBBF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +68,18 @@ Global
 		{070CF4CE-97C7-4DB2-9CF9-9A1975A2A66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{070CF4CE-97C7-4DB2-9CF9-9A1975A2A66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{070CF4CE-97C7-4DB2-9CF9-9A1975A2A66B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86F8DABA-319D-465C-86F2-03D10B67024A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F8DABA-319D-465C-86F2-03D10B67024A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F8DABA-319D-465C-86F2-03D10B67024A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F8DABA-319D-465C-86F2-03D10B67024A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9387CAF-C1D1-4F40-B498-3F4453753556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9387CAF-C1D1-4F40-B498-3F4453753556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9387CAF-C1D1-4F40-B498-3F4453753556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9387CAF-C1D1-4F40-B498-3F4453753556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E234A336-B2E1-4FF6-A41F-B2C1F06FBBF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E234A336-B2E1-4FF6-A41F-B2C1F06FBBF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E234A336-B2E1-4FF6-A41F-B2C1F06FBBF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E234A336-B2E1-4FF6-A41F-B2C1F06FBBF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
