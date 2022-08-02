@@ -15,6 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditionals", "Conditional
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab 1.2 Number Analyzer", "Lab 1.2 Number Analyzer\Lab 1.2 Number Analyzer.csproj", "{C0878678-810F-4FA8-B3DD-64EB9F628CA4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4B73DC5C-38D6-4F5A-9918-0AE048E23841}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopDemo1", "LoopDemo1\LoopDemo1.csproj", "{68D6CB5E-92D9-4256-AB66-A4A3FAFFBF65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoAgain", "GoAgain\GoAgain.csproj", "{070CF4CE-97C7-4DB2-9CF9-9A1975A2A66B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +54,14 @@ Global
 		{C0878678-810F-4FA8-B3DD-64EB9F628CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0878678-810F-4FA8-B3DD-64EB9F628CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0878678-810F-4FA8-B3DD-64EB9F628CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D6CB5E-92D9-4256-AB66-A4A3FAFFBF65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D6CB5E-92D9-4256-AB66-A4A3FAFFBF65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D6CB5E-92D9-4256-AB66-A4A3FAFFBF65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D6CB5E-92D9-4256-AB66-A4A3FAFFBF65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070CF4CE-97C7-4DB2-9CF9-9A1975A2A66B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070CF4CE-97C7-4DB2-9CF9-9A1975A2A66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070CF4CE-97C7-4DB2-9CF9-9A1975A2A66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070CF4CE-97C7-4DB2-9CF9-9A1975A2A66B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
