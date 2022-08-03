@@ -70,7 +70,7 @@ while (keepPlaying)
                 int d20_2 = RandomNumberGenerator(1, 21);
                 Console.WriteLine("Rolling...");
                 Thread.Sleep(1500);
-                Console.WriteLine($"{d20_1} and {d20_2}");
+                criticalHit(d20_1, d20_2);
                 break;
         }
 
@@ -94,10 +94,6 @@ while (keepPlaying)
 //int amount = Convert.ToInt32(amountAsString);
 
 
-
-
-
-
 static int RandomNumberGenerator(int min, int max)
 {
     Random rand = new Random();
@@ -108,11 +104,11 @@ static void d6Combination(int d6_1, int d6_2)
 {
     if (d6_1 == 1 && d6_2 == 1)
     {
-         Console.WriteLine($"Snake Eyes: {d6_1} and {d6_2}");
+         Console.WriteLine($"Snake Eyes: 1 and 1");
     }
     else if (d6_1 == 1 || d6_1 == 2 && d6_2 == 1 || d6_2 == 2)
     {
-        Console.WriteLine($"Ace Deuce: A 1 and a 2\n{d6_1} and {d6_2}");
+        Console.WriteLine($"Ace Deuce: A 1 and a 2");
     }
     else if (d6_1 == 6 && d6_2 == 6)
     {
@@ -131,3 +127,13 @@ static void d6Combination(int d6_1, int d6_2)
         Console.WriteLine($"{d6_1} and {d6_2}");
     }
 }
+
+static void criticalHit(int d20_1, int d20_2)
+{
+    if (d20_1 == 20 && d20_2 == 20)
+    {
+        Console.WriteLine("MASSIVE CRITICAL HIT!!! 20 and 20!");
+    }
+}
+
+
