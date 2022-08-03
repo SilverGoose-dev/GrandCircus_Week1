@@ -23,6 +23,7 @@ do
     if (IsRealInteger = false||userNumber > 100 || userNumber < 1)
     {
         Console.WriteLine("Hey! That's not a valid number");
+        continue;
 
     }
     else if (userNumber % 2 == 1 && userNumber < 60 )
