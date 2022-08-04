@@ -104,7 +104,7 @@ while (keepPlaying)
                 break;
         }
 
-        Console.WriteLine("Would you like to roll again? (Y or N)");
+        Console.WriteLine("\nWould you like to roll again? (Y or N)");
         string continuing = Console.ReadLine().ToLower();
         if (continuing == "y")
         {
@@ -164,6 +164,10 @@ static void criticalHit(int d20_1, int d20_2)
     if (d20_1 == 20 && d20_2 == 20)
     {
         Console.WriteLine("MASSIVE CRITICAL HIT!!! 20 and 20!");
+    }
+    else
+    {
+        Console.WriteLine($"{d20_1} and {d20_2}");
     }
 }
 
