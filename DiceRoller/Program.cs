@@ -33,43 +33,73 @@ while (keepPlaying)
 
                 int d4_1 = RandomNumberGenerator(1, 5);
                 int d4_2 = RandomNumberGenerator(1, 5);
-                Console.WriteLine("Rolling...");
-                Thread.Sleep(1500);
+                Console.Write("\nRolling");
+                Thread.Sleep(500);
+                Console.Write(".");
+                Thread.Sleep(500);
+                Console.Write(".");
+                Thread.Sleep(500);
+                Console.Write(".\n\n");
                 Console.WriteLine($"{d4_1} and {d4_2}");
                 break;
             case 2:
                 int d6_1 = RandomNumberGenerator(1, 7);
                 int d6_2 = RandomNumberGenerator(1, 7);
-                Console.WriteLine("Rolling...");
-                Thread.Sleep(1500);
+                Console.Write("\nRolling");
+                Thread.Sleep(500);
+                Console.Write(".");
+                Thread.Sleep(500);
+                Console.Write(".");
+                Thread.Sleep(500);
+                Console.Write(".\n\n");
                 d6Combination(d6_1, d6_2);
                 break;
             case 3:
                 int d8_1 = RandomNumberGenerator(1, 9);
                 int d8_2 = RandomNumberGenerator(1, 9);
-                Console.WriteLine("Rolling...");
-                Thread.Sleep(1500);
+                Console.Write("\nRolling");
+                Thread.Sleep(500);
+                Console.Write(".");
+                Thread.Sleep(500);
+                Console.Write(".");
+                Thread.Sleep(500);
+                Console.Write(".\n\n");
                 Console.WriteLine($"{d8_1} and {d8_2}");
                 break;
             case 4:
                 int d10_1 = RandomNumberGenerator(1, 11);
                 int d10_2 = RandomNumberGenerator(1, 11);
-                Console.WriteLine("Rolling...");
-                Thread.Sleep(1500);
+                Console.Write("\nRolling");
+                Thread.Sleep(500);
+                Console.Write(".");
+                Thread.Sleep(500);
+                Console.Write(".");
+                Thread.Sleep(500);
+                Console.Write(".\n\n");
                 Console.WriteLine($"{d10_1} and {d10_2}");
                 break;
             case 5:
                 int d12_1 = RandomNumberGenerator(1, 13);
                 int d12_2 = RandomNumberGenerator(1, 13);
-                Console.WriteLine("Rolling...");
-                Thread.Sleep(1500);
+                Console.Write("\nRolling");
+                Thread.Sleep(500);
+                Console.Write(".");
+                Thread.Sleep(500);
+                Console.Write(".");
+                Thread.Sleep(500);
+                Console.Write(".\n\n");
                 Console.WriteLine($"{d12_1} and {d12_2}");
                 break;
             case 6:
                 int d20_1 = RandomNumberGenerator(1, 21);
                 int d20_2 = RandomNumberGenerator(1, 21);
-                Console.WriteLine("Rolling...");
-                Thread.Sleep(1500);
+                Console.Write("\nRolling");
+                Thread.Sleep(500);
+                Console.Write(".");
+                Thread.Sleep(500);
+                Console.Write(".");
+                Thread.Sleep(500);
+                Console.Write(".\n\n");
                 criticalHit(d20_1, d20_2);
                 break;
         }
@@ -78,6 +108,7 @@ while (keepPlaying)
         string continuing = Console.ReadLine().ToLower();
         if (continuing == "y")
         {
+            Console.WriteLine();
             continue;
         }
         else
